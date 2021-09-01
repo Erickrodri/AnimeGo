@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gauravk.bubblenavigation.BubbleNavigationConstraintView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottombar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:elevation="4dp"
+    android:padding="12dp"
+    app:bnc_mode="spread"
+    android:layout_gravity="bottom|end"
+    android:layout_alignParentBottom="true">
+
+    <com.gauravk.bubblenavigation.BubbleToggleView
+        android:id="@+id/c_item_rest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bt_active="true"
+        app:bt_colorActive="#FFC107"
+        app:bt_colorInactive="#FFC107"
+        app:bt_icon="@drawable/ic_home"
+        app:bt_shape="@drawable/ic_home"
+        app:bt_title="@string/bottom_home"
+        app:bt_padding="2dp"
+        app:bt_titlePadding="2dp" />
+
+    <com.gauravk.bubblenavigation.BubbleToggleView
+        android:id="@+id/c_item_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bt_active="true"
+        app:bt_colorActive="#4CAF50"
+        app:bt_colorInactive="#4CAF50"
+        app:bt_icon="@drawable/ic_search"
+        app:bt_shape="@drawable/ic_search"
+        app:bt_title="@string/bottom_search"
+        app:bt_padding="2dp"
+        app:bt_titlePadding="2dp" />
+
+    <com.gauravk.bubblenavigation.BubbleToggleView
+        android:id="@+id/c_item_my"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bt_active="true"
+        app:bt_colorActive="#03A9F4"
+        app:bt_colorInactive="#03A9F4"
+        app:bt_icon="@drawable/ic_account"
+        app:bt_shape="@drawable/ic_account"
+        app:bt_title="@string/bottom_profile"
+        app:bt_padding="2dp"
+        app:bt_titlePadding="2dp" />
+
+
+
+    <!-- Add more child items here - max upto 5 -->
+
+</com.gauravk.bubblenavigation.BubbleNavigationConstraintView>

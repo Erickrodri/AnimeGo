@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="edittext_textsize_login">22sp</dimen>
+    <dimen name="padding_horizontal_login">32dp</dimen>
+    <dimen name="textsize_donthaveaccount">16sp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="edittext_margin_createaccount">10dp</dimen>
+    <dimen name="height_cardView">150dp</dimen>
+    <dimen name="cornerRadius_cardView">10dp</dimen>
+    <dimen name="width_image_cardview">120dp</dimen>
+    <dimen name="padding_cardview">15dp</dimen>
+    <dimen name="title_cardview">18sp</dimen>
+    <dimen name="description_cardview">12sp</dimen>
+    <dimen name="appbarlayout_height">256dp</dimen>
+    <dimen name="textsize_titleDetail">25sp</dimen>
+    <dimen name="textsize_chapterDetail">15sp</dimen>
+    <dimen name="marginright_chapterdetail">7dp</dimen>
+    <dimen name="height_dividir">1dp</dimen>
+    <dimen name="paddingtop_contentdetail">20dp</dimen>
+    <dimen name="padding_horizontal_textcontentdetail">35dp</dimen>
+</resources>

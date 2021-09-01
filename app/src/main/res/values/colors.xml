@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="colorPromaryLight">#FFECB3</color>
+    <color name="colorBackground">#546e7a</color>
+    <color name="editTextColorWhite">#FFFFFF</color>
+    <color name="editTextColorBlack">#000000</color>
+    <color name="backgroundlike_card">#19292929</color>
+</resources>
